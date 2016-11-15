@@ -2,13 +2,11 @@
 //01 //* Setup  Read in the property values of testObj using dot notation.
 Set the variable hatValue equal to the object property hat and set the
 variable shirtValue equal to the object property shirt. */
-
 var testObj = {
   "hat": "ballcap",
   "shirt": "jersey",
   "shoes": "cleats"
 };
-
 var hatValue = testObj.hat;      // Change this line
 var shirtValue = testObj.shirt; // Change this line
 
@@ -32,8 +30,21 @@ var testObj = {
   16: "Montana",
   19: "Unitas"
 };
-
 // Only change code below this line;
-
 var playerNumber = 16;                 // Change this Line
 var player = testObj[playerNumber];   // Change this Line
+
+
+//04 /* Update the myDog object's name property. Let's change her name from "Coder" to "Happy Coder". You can use either dot or bracket notation. */
+
+// Setup
+var myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["Free Code Camp Campers"]
+};
+
+// Only change code below this line.
+
+myDog.name = "Happy Coder";
